@@ -1,0 +1,41 @@
+Symbol range map extraction starting
+Processing 13 files
+startProcessing "trhod177/rbm/Reference.java" md5: a2b4bc5d93e8c1206876b0b665129db9
+endProcessing "trhod177/rbm/Reference.java"
+
+startProcessing "trhod177/rbm/ReinforcedBlocksMod.java" md5: 363ecf7db2b7a75d56a8fb3e673c06a2
+endProcessing "trhod177/rbm/ReinforcedBlocksMod.java"
+
+startProcessing "trhod177/rbm/blocks/CustomBlock.java" md5: 46fb33a0b66ed18cf192fee2d5320bad
+endProcessing "trhod177/rbm/blocks/CustomBlock.java"
+
+startProcessing "trhod177/rbm/blocks/CustomWood.java" md5: 15314b71e8e86f4ba4bd7785c806d26c
+endProcessing "trhod177/rbm/blocks/CustomWood.java"
+
+startProcessing "trhod177/rbm/handlers/OreDictionaryHandler.java" md5: e057c132506e0479ce61db1a9fbe2f22
+endProcessing "trhod177/rbm/handlers/OreDictionaryHandler.java"
+
+startProcessing "trhod177/rbm/handlers/RecipeHandler.java" md5: 732387239df9ec78e4b98e885bd14574
+endProcessing "trhod177/rbm/handlers/RecipeHandler.java"
+
+startProcessing "trhod177/rbm/handlers/RegistryHandler.java" md5: 45eeed46535e531a5ea5fe922e1f313c
+endProcessing "trhod177/rbm/handlers/RegistryHandler.java"
+
+startProcessing "trhod177/rbm/init/BlockInit.java" md5: d4d90c64e5dc88db70ca1e1871fa7def
+endProcessing "trhod177/rbm/init/BlockInit.java"
+
+startProcessing "trhod177/rbm/init/ItemInit.java" md5: b59276de136c27b4417ee02b6475e106
+endProcessing "trhod177/rbm/init/ItemInit.java"
+
+startProcessing "trhod177/rbm/items/ItemBase.java" md5: 64b0666dbf72f5bd64bbbc24d8dc7bdb
+endProcessing "trhod177/rbm/items/ItemBase.java"
+
+startProcessing "trhod177/rbm/proxy/ClientProxy.java" md5: f5dc2d362f9018f399bf5affc785ed04
+endProcessing "trhod177/rbm/proxy/ClientProxy.java"
+
+startProcessing "trhod177/rbm/proxy/CommonProxy.java" md5: fa98313158aca681644303c58a159545
+endProcessing "trhod177/rbm/proxy/CommonProxy.java"
+
+startProcessing "trhod177/rbm/tabs/ReinforcedBlocksModTab.java" md5: 0e4489aee055e5bae73d952ec6774cb7
+endProcessing "trhod177/rbm/tabs/ReinforcedBlocksModTab.java"
+

@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "rbm/blocks/r_log_birch_top",
+        "side": "rbm/blocks/r_log_birch"
+    }
+}

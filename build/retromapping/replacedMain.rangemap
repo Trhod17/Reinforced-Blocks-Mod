@@ -1,0 +1,569 @@
+Symbol range map extraction starting
+Processing 13 files
+startProcessing "trhod177/rbm/Reference.java" md5: a2b4bc5d93e8c1206876b0b665129db9
+@|trhod177/rbm/Reference.java|8|20|trhod177.rbm|package|trhod177.rbm|(file)
+Class Start: trhod177.rbm.Reference
+   @|trhod177/rbm/Reference.java|36|45|Reference|class|trhod177.rbm.Reference
+   @|trhod177/rbm/Reference.java|70|76|String|class|java.lang.String
+   @|trhod177/rbm/Reference.java|70|76|String|class|java.lang.String
+   @|trhod177/rbm/Reference.java|77|82|MODID|field|trhod177.rbm.Reference|MODID|
+   @|trhod177/rbm/Reference.java|114|120|String|class|java.lang.String
+   @|trhod177/rbm/Reference.java|114|120|String|class|java.lang.String
+   @|trhod177/rbm/Reference.java|121|125|NAME|field|trhod177.rbm.Reference|NAME|
+   @|trhod177/rbm/Reference.java|174|180|String|class|java.lang.String
+   @|trhod177/rbm/Reference.java|174|180|String|class|java.lang.String
+   @|trhod177/rbm/Reference.java|181|188|VERSION|field|trhod177.rbm.Reference|VERSION|
+   @|trhod177/rbm/Reference.java|231|237|String|class|java.lang.String
+   @|trhod177/rbm/Reference.java|231|237|String|class|java.lang.String
+   @|trhod177/rbm/Reference.java|238|249|CLIENTPROXY|field|trhod177.rbm.Reference|CLIENTPROXY|
+   @|trhod177/rbm/Reference.java|307|313|String|class|java.lang.String
+   @|trhod177/rbm/Reference.java|307|313|String|class|java.lang.String
+   @|trhod177/rbm/Reference.java|314|325|COMMONPROXY|field|trhod177.rbm.Reference|COMMONPROXY|
+Class End  : trhod177.rbm.Reference
+endProcessing "trhod177/rbm/Reference.java"
+
+startProcessing "trhod177/rbm/ReinforcedBlocksMod.java" md5: 363ecf7db2b7a75d56a8fb3e673c06a2
+@|trhod177/rbm/ReinforcedBlocksMod.java|8|20|trhod177.rbm|package|trhod177.rbm|(file)
+Class Start: trhod177.rbm.ReinforcedBlocksMod
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1126|1129|Mod|class|net.minecraftforge.fml.common.Mod
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1130|1135|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1138|1147|Reference|class|trhod177.rbm.Reference
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1148|1153|MODID|field|trhod177.rbm.Reference|MODID
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1155|1159|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1162|1171|Reference|class|trhod177.rbm.Reference
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1172|1176|NAME|field|trhod177.rbm.Reference|NAME
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1178|1185|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1188|1197|Reference|class|trhod177.rbm.Reference
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1198|1205|VERSION|field|trhod177.rbm.Reference|VERSION
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1220|1239|ReinforcedBlocksMod|class|trhod177.rbm.ReinforcedBlocksMod
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1265|1277|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1265|1277|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1278|1300|reinforcedblocksmodtab|field|trhod177.rbm.ReinforcedBlocksMod|reinforcedblocksmodtab|
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1307|1329|ReinforcedBlocksModTab|class|trhod177.rbm.tabs.ReinforcedBlocksModTab
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1470|1481|CommonProxy|class|trhod177.rbm.proxy.CommonProxy
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1372|1382|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1383|1393|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1396|1405|Reference|class|trhod177.rbm.Reference
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1406|1417|CLIENTPROXY|field|trhod177.rbm.Reference|CLIENTPROXY
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1419|1429|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1432|1441|Reference|class|trhod177.rbm.Reference
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1442|1453|COMMONPROXY|field|trhod177.rbm.Reference|COMMONPROXY
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1470|1481|CommonProxy|class|trhod177.rbm.proxy.CommonProxy
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1482|1487|proxy|field|trhod177.rbm.ReinforcedBlocksMod|proxy|
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1538|1557|ReinforcedBlocksMod|class|trhod177.rbm.ReinforcedBlocksMod
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1493|1505|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1506|1515|Reference|class|trhod177.rbm.Reference
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1516|1521|MODID|field|trhod177.rbm.Reference|MODID
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1538|1557|ReinforcedBlocksMod|class|trhod177.rbm.ReinforcedBlocksMod
+   @|trhod177/rbm/ReinforcedBlocksMod.java|1558|1566|instance|field|trhod177.rbm.ReinforcedBlocksMod|instance|
+   Class Start: trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler
+      @|trhod177/rbm/ReinforcedBlocksMod.java|1571|1593|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+      @|trhod177/rbm/ReinforcedBlocksMod.java|1615|1634|RegistrationHandler|class|trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler
+      Method Start: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1722|1727|event|param|trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1641|1655|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1677|1691|registerBlocks|method|trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1692|1714|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1715|1720|Block|class|net.minecraft.block.Block
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1734|1743|BlockInit|class|trhod177.rbm.init.BlockInit
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1744|1752|register|method|trhod177.rbm.init.BlockInit|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1753|1758|event|param|trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1759|1770|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      Method End: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      Method Start: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1865|1870|event|param|trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1786|1800|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1822|1835|registerItems|method|trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1836|1858|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1859|1863|Item|class|net.minecraft.item.Item
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1877|1885|ItemInit|class|trhod177.rbm.init.ItemInit
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1886|1894|register|method|trhod177.rbm.init.ItemInit|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1895|1900|event|param|trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1901|1912|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1920|1929|BlockInit|class|trhod177.rbm.init.BlockInit
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1930|1948|registerItemBlocks|method|trhod177.rbm.init.BlockInit|registerItemBlocks|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1949|1954|event|param|trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1955|1966|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      Method End: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2055|2060|event|param|trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+         @|trhod177/rbm/ReinforcedBlocksMod.java|1985|1999|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2021|2035|registerModels|method|trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2036|2054|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2067|2075|ItemInit|class|trhod177.rbm.init.ItemInit
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2076|2090|registerModels|method|trhod177.rbm.init.ItemInit|registerModels|()V
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2097|2106|BlockInit|class|trhod177.rbm.init.BlockInit
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2107|2121|registerModels|method|trhod177.rbm.init.BlockInit|registerModels|()V
+      Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      Method Start: registerItems(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2208|2213|event|param|trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler|registerItems|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2139|2153|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2175|2188|registerItems|method|trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler|registerItems|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2189|2207|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2220|2228|ItemInit|class|trhod177.rbm.init.ItemInit
+         @|trhod177/rbm/ReinforcedBlocksMod.java|2229|2243|registerModels|method|trhod177.rbm.init.ItemInit|registerModels|()V
+      Method End: registerItems(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class End  : trhod177.rbm.ReinforcedBlocksMod.RegistrationHandler
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2300|2304|item|param|trhod177.rbm.ReinforcedBlocksMod|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2310|2314|meta|param|trhod177.rbm.ReinforcedBlocksMod|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2323|2325|id|param|trhod177.rbm.ReinforcedBlocksMod|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2274|2294|registerItemRenderer|method|trhod177.rbm.ReinforcedBlocksMod|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2295|2299|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2316|2322|String|class|java.lang.String
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2331|2342|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2343|2373|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2374|2378|item|param|trhod177.rbm.ReinforcedBlocksMod|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2380|2384|meta|param|trhod177.rbm.ReinforcedBlocksMod|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2390|2411|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2412|2421|Reference|class|trhod177.rbm.Reference
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2422|2427|MODID|field|trhod177.rbm.Reference|MODID
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2436|2438|id|param|trhod177.rbm.ReinforcedBlocksMod|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2534|2539|event|param|trhod177.rbm.ReinforcedBlocksMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2467|2479|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2500|2507|preInit|method|trhod177.rbm.ReinforcedBlocksMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2508|2533|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2545|2550|proxy|field|trhod177.rbm.ReinforcedBlocksMod|proxy
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2551|2558|preInit|method|trhod177.rbm.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2559|2564|event|param|trhod177.rbm.ReinforcedBlocksMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2685|2690|event|param|trhod177.rbm.ReinforcedBlocksMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2624|2636|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2657|2661|init|method|trhod177.rbm.ReinforcedBlocksMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2662|2684|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2696|2701|proxy|field|trhod177.rbm.ReinforcedBlocksMod|proxy
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2702|2706|init|method|trhod177.rbm.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2707|2712|event|param|trhod177.rbm.ReinforcedBlocksMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2717|2737|OreDictionaryHandler|class|trhod177.rbm.handlers.OreDictionaryHandler
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2738|2759|registerOreDictionary|method|trhod177.rbm.handlers.OreDictionaryHandler|registerOreDictionary|()V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2765|2778|RecipeHandler|class|trhod177.rbm.handlers.RecipeHandler
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2779|2795|registerCrafting|method|trhod177.rbm.handlers.RecipeHandler|registerCrafting|()V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2801|2814|RecipeHandler|class|trhod177.rbm.handlers.RecipeHandler
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2815|2831|registerSmelting|method|trhod177.rbm.handlers.RecipeHandler|registerSmelting|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2914|2919|event|param|trhod177.rbm.ReinforcedBlocksMod|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2845|2857|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2878|2886|postInit|method|trhod177.rbm.ReinforcedBlocksMod|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2887|2913|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2925|2930|proxy|field|trhod177.rbm.ReinforcedBlocksMod|proxy
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2931|2939|postInit|method|trhod177.rbm.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trhod177/rbm/ReinforcedBlocksMod.java|2940|2945|event|param|trhod177.rbm.ReinforcedBlocksMod|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : trhod177.rbm.ReinforcedBlocksMod
+endProcessing "trhod177/rbm/ReinforcedBlocksMod.java"
+
+startProcessing "trhod177/rbm/blocks/CustomBlock.java" md5: 46fb33a0b66ed18cf192fee2d5320bad
+@|trhod177/rbm/blocks/CustomBlock.java|8|27|trhod177.rbm.blocks|package|trhod177.rbm.blocks|(file)
+Class Start: trhod177.rbm.blocks.CustomBlock
+   @|trhod177/rbm/blocks/CustomBlock.java|281|292|CustomBlock|class|trhod177.rbm.blocks.CustomBlock
+   @|trhod177/rbm/blocks/CustomBlock.java|301|306|Block|class|net.minecraft.block.Block
+   @|trhod177/rbm/blocks/CustomBlock.java|322|328|String|class|java.lang.String
+   @|trhod177/rbm/blocks/CustomBlock.java|322|328|String|class|java.lang.String
+   @|trhod177/rbm/blocks/CustomBlock.java|329|333|name|field|trhod177.rbm.blocks.CustomBlock|name|
+   Method Start: CustomBlock(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+      @|trhod177/rbm/blocks/CustomBlock.java|365|373|material|param|trhod177.rbm.blocks.CustomBlock|CustomBlock|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|material|0
+      @|trhod177/rbm/blocks/CustomBlock.java|382|386|name|param|trhod177.rbm.blocks.CustomBlock|CustomBlock|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|trhod177/rbm/blocks/CustomBlock.java|344|355|CustomBlock|method|trhod177.rbm.blocks.CustomBlock|CustomBlock|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+      @|trhod177/rbm/blocks/CustomBlock.java|356|364|Material|class|net.minecraft.block.material.Material
+      @|trhod177/rbm/blocks/CustomBlock.java|375|381|String|class|java.lang.String
+      @|trhod177/rbm/blocks/CustomBlock.java|401|409|material|param|trhod177.rbm.blocks.CustomBlock|CustomBlock|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|material|0
+      @|trhod177/rbm/blocks/CustomBlock.java|410|414|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|trhod177/rbm/blocks/CustomBlock.java|424|428|name|field|trhod177.rbm.blocks.CustomBlock|name
+      @|trhod177/rbm/blocks/CustomBlock.java|431|435|name|param|trhod177.rbm.blocks.CustomBlock|CustomBlock|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|trhod177/rbm/blocks/CustomBlock.java|441|459|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|trhod177/rbm/blocks/CustomBlock.java|460|464|name|param|trhod177.rbm.blocks.CustomBlock|CustomBlock|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|trhod177/rbm/blocks/CustomBlock.java|469|484|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|trhod177/rbm/blocks/CustomBlock.java|485|489|name|param|trhod177.rbm.blocks.CustomBlock|CustomBlock|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|trhod177/rbm/blocks/CustomBlock.java|494|509|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+   Method End: CustomBlock(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|trhod177/rbm/blocks/CustomBlock.java|562|571|itemBlock|param|trhod177.rbm.blocks.CustomBlock|registerItemModel|(Lnet/minecraft/item/Item;)V|itemBlock|0
+      @|trhod177/rbm/blocks/CustomBlock.java|539|556|registerItemModel|method|trhod177.rbm.blocks.CustomBlock|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|trhod177/rbm/blocks/CustomBlock.java|557|561|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/blocks/CustomBlock.java|577|596|ReinforcedBlocksMod|class|trhod177.rbm.ReinforcedBlocksMod
+      @|trhod177/rbm/blocks/CustomBlock.java|597|602|proxy|field|trhod177.rbm.ReinforcedBlocksMod|proxy
+      @|trhod177/rbm/blocks/CustomBlock.java|603|623|registerItemRenderer|method|trhod177.rbm.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|trhod177/rbm/blocks/CustomBlock.java|624|633|itemBlock|param|trhod177.rbm.blocks.CustomBlock|registerItemModel|(Lnet/minecraft/item/Item;)V|itemBlock|0
+      @|trhod177/rbm/blocks/CustomBlock.java|638|642|name|field|trhod177.rbm.blocks.CustomBlock|name
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+   Method Start: createItemBlock()Lnet/minecraft/item/Item;
+      @|trhod177/rbm/blocks/CustomBlock.java|658|662|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/blocks/CustomBlock.java|663|678|createItemBlock|method|trhod177.rbm.blocks.CustomBlock|createItemBlock|()Lnet/minecraft/item/Item;
+      @|trhod177/rbm/blocks/CustomBlock.java|696|705|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|trhod177/rbm/blocks/CustomBlock.java|712|727|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|trhod177/rbm/blocks/CustomBlock.java|728|743|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: createItemBlock()Lnet/minecraft/item/Item;
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Ltrhod177/rbm/blocks/CustomBlock;
+      @|trhod177/rbm/blocks/CustomBlock.java|812|815|tab|param|trhod177.rbm.blocks.CustomBlock|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Ltrhod177/rbm/blocks/CustomBlock;|tab|0
+      @|trhod177/rbm/blocks/CustomBlock.java|755|763|Override|class|java.lang.Override
+      @|trhod177/rbm/blocks/CustomBlock.java|772|783|CustomBlock|class|trhod177.rbm.blocks.CustomBlock
+      @|trhod177/rbm/blocks/CustomBlock.java|784|798|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|trhod177/rbm/blocks/CustomBlock.java|799|811|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|trhod177/rbm/blocks/CustomBlock.java|827|841|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|trhod177/rbm/blocks/CustomBlock.java|842|845|tab|param|trhod177.rbm.blocks.CustomBlock|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Ltrhod177/rbm/blocks/CustomBlock;|tab|0
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Ltrhod177/rbm/blocks/CustomBlock;
+Class End  : trhod177.rbm.blocks.CustomBlock
+endProcessing "trhod177/rbm/blocks/CustomBlock.java"
+
+startProcessing "trhod177/rbm/blocks/CustomWood.java" md5: 15314b71e8e86f4ba4bd7785c806d26c
+@|trhod177/rbm/blocks/CustomWood.java|8|27|trhod177.rbm.blocks|package|trhod177.rbm.blocks|(file)
+Class Start: trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/blocks/CustomWood.java|216|226|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/blocks/CustomWood.java|235|246|CustomBlock|class|trhod177.rbm.blocks.CustomBlock
+   Method Start: CustomWood(Ljava/lang/String;)V
+      @|trhod177/rbm/blocks/CustomWood.java|277|281|name|param|trhod177.rbm.blocks.CustomWood|CustomWood|(Ljava/lang/String;)V|name|0
+      @|trhod177/rbm/blocks/CustomWood.java|259|269|CustomWood|method|trhod177.rbm.blocks.CustomWood|CustomWood|(Ljava/lang/String;)V
+      @|trhod177/rbm/blocks/CustomWood.java|270|276|String|class|java.lang.String
+      @|trhod177/rbm/blocks/CustomWood.java|294|302|Material|class|net.minecraft.block.material.Material
+      @|trhod177/rbm/blocks/CustomWood.java|303|307|WOOD|field|net.minecraft.block.material.Material|WOOD
+      @|trhod177/rbm/blocks/CustomWood.java|309|313|name|param|trhod177.rbm.blocks.CustomWood|CustomWood|(Ljava/lang/String;)V|name|0
+      @|trhod177/rbm/blocks/CustomWood.java|322|333|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|trhod177/rbm/blocks/CustomWood.java|343|356|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+   Method End: CustomWood(Ljava/lang/String;)V
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Ltrhod177/rbm/blocks/CustomWood;
+      @|trhod177/rbm/blocks/CustomWood.java|440|443|tab|param|trhod177.rbm.blocks.CustomWood|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Ltrhod177/rbm/blocks/CustomWood;|tab|0
+      @|trhod177/rbm/blocks/CustomWood.java|383|391|Override|class|java.lang.Override
+      @|trhod177/rbm/blocks/CustomWood.java|401|411|CustomWood|class|trhod177.rbm.blocks.CustomWood
+      @|trhod177/rbm/blocks/CustomWood.java|412|426|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|trhod177/rbm/blocks/CustomWood.java|427|439|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|trhod177/rbm/blocks/CustomWood.java|456|470|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|trhod177/rbm/blocks/CustomWood.java|471|490|ReinforcedBlocksMod|class|trhod177.rbm.ReinforcedBlocksMod
+      @|trhod177/rbm/blocks/CustomWood.java|491|513|reinforcedblocksmodtab|field|trhod177.rbm.ReinforcedBlocksMod|reinforcedblocksmodtab
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Ltrhod177/rbm/blocks/CustomWood;
+Class End  : trhod177.rbm.blocks.CustomWood
+endProcessing "trhod177/rbm/blocks/CustomWood.java"
+
+startProcessing "trhod177/rbm/handlers/OreDictionaryHandler.java" md5: e057c132506e0479ce61db1a9fbe2f22
+@|trhod177/rbm/handlers/OreDictionaryHandler.java|8|29|trhod177.rbm.handlers|package|trhod177.rbm.handlers|(file)
+Class Start: trhod177.rbm.handlers.OreDictionaryHandler
+   @|trhod177/rbm/handlers/OreDictionaryHandler.java|131|151|OreDictionaryHandler|class|trhod177.rbm.handlers.OreDictionaryHandler
+   Method Start: registerOreDictionary()V
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|176|197|registerOreDictionary|method|trhod177.rbm.handlers.OreDictionaryHandler|registerOreDictionary|()V
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|207|220|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|221|232|registerOre|method|net.minecraftforge.oredict.OreDictionary|registerOre|(Ljava/lang/String;Lnet/minecraft/block/Block;)V
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|254|263|BlockInit|class|trhod177.rbm.init.BlockInit
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|264|285|reinforced_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_oak_planks
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|290|303|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|304|315|registerOre|method|net.minecraftforge.oredict.OreDictionary|registerOre|(Ljava/lang/String;Lnet/minecraft/block/Block;)V
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|338|347|BlockInit|class|trhod177.rbm.init.BlockInit
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|348|371|reinforced_birch_planks|field|trhod177.rbm.init.BlockInit|reinforced_birch_planks
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|376|389|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|390|401|registerOre|method|net.minecraftforge.oredict.OreDictionary|registerOre|(Ljava/lang/String;Lnet/minecraft/block/Block;)V
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|426|435|BlockInit|class|trhod177.rbm.init.BlockInit
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|436|460|reinforced_spruce_planks|field|trhod177.rbm.init.BlockInit|reinforced_spruce_planks
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|465|478|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|479|490|registerOre|method|net.minecraftforge.oredict.OreDictionary|registerOre|(Ljava/lang/String;Lnet/minecraft/block/Block;)V
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|515|524|BlockInit|class|trhod177.rbm.init.BlockInit
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|525|549|reinforced_jungle_planks|field|trhod177.rbm.init.BlockInit|reinforced_jungle_planks
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|554|567|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|568|579|registerOre|method|net.minecraftforge.oredict.OreDictionary|registerOre|(Ljava/lang/String;Lnet/minecraft/block/Block;)V
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|604|613|BlockInit|class|trhod177.rbm.init.BlockInit
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|614|638|reinforced_acacia_planks|field|trhod177.rbm.init.BlockInit|reinforced_acacia_planks
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|643|656|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|657|668|registerOre|method|net.minecraftforge.oredict.OreDictionary|registerOre|(Ljava/lang/String;Lnet/minecraft/block/Block;)V
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|694|703|BlockInit|class|trhod177.rbm.init.BlockInit
+      @|trhod177/rbm/handlers/OreDictionaryHandler.java|704|730|reinforced_dark_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_dark_oak_planks
+   Method End: registerOreDictionary()V
+Class End  : trhod177.rbm.handlers.OreDictionaryHandler
+endProcessing "trhod177/rbm/handlers/OreDictionaryHandler.java"
+
+startProcessing "trhod177/rbm/handlers/RecipeHandler.java" md5: 732387239df9ec78e4b98e885bd14574
+@|trhod177/rbm/handlers/RecipeHandler.java|8|29|trhod177.rbm.handlers|package|trhod177.rbm.handlers|(file)
+Class Start: trhod177.rbm.handlers.RecipeHandler
+   @|trhod177/rbm/handlers/RecipeHandler.java|345|358|RecipeHandler|class|trhod177.rbm.handlers.RecipeHandler
+   Method Start: registerCrafting()V
+      @|trhod177/rbm/handlers/RecipeHandler.java|382|398|registerCrafting|method|trhod177.rbm.handlers.RecipeHandler|registerCrafting|()V
+   Method End: registerCrafting()V
+   Method Start: registerSmelting()V
+      @|trhod177/rbm/handlers/RecipeHandler.java|1880|1896|registerSmelting|method|trhod177.rbm.handlers.RecipeHandler|registerSmelting|()V
+      @|trhod177/rbm/handlers/RecipeHandler.java|1906|1918|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|trhod177/rbm/handlers/RecipeHandler.java|1919|1930|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
+      @|trhod177/rbm/handlers/RecipeHandler.java|1931|1937|Blocks|class|net.minecraft.init.Blocks
+      @|trhod177/rbm/handlers/RecipeHandler.java|1938|1946|OBSIDIAN|field|net.minecraft.init.Blocks|OBSIDIAN
+      @|trhod177/rbm/handlers/RecipeHandler.java|1952|1961|ItemStack|class|net.minecraft.item.ItemStack
+      @|trhod177/rbm/handlers/RecipeHandler.java|1962|1970|ItemInit|class|trhod177.rbm.init.ItemInit
+      @|trhod177/rbm/handlers/RecipeHandler.java|1971|1992|ObsidianReinforcement|field|trhod177.rbm.init.ItemInit|ObsidianReinforcement
+   Method End: registerSmelting()V
+Class End  : trhod177.rbm.handlers.RecipeHandler
+endProcessing "trhod177/rbm/handlers/RecipeHandler.java"
+
+startProcessing "trhod177/rbm/handlers/RegistryHandler.java" md5: 45eeed46535e531a5ea5fe922e1f313c
+endProcessing "trhod177/rbm/handlers/RegistryHandler.java"
+
+startProcessing "trhod177/rbm/init/BlockInit.java" md5: d4d90c64e5dc88db70ca1e1871fa7def
+@|trhod177/rbm/init/BlockInit.java|8|25|trhod177.rbm.init|package|trhod177.rbm.init|(file)
+Class Start: trhod177.rbm.init.BlockInit
+   @|trhod177/rbm/init/BlockInit.java|809|818|BlockInit|class|trhod177.rbm.init.BlockInit
+   @|trhod177/rbm/init/BlockInit.java|838|848|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|838|848|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|849|870|reinforced_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_oak_planks|
+   @|trhod177/rbm/init/BlockInit.java|877|887|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|911|925|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+   @|trhod177/rbm/init/BlockInit.java|926|938|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|trhod177/rbm/init/BlockInit.java|939|954|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
+   @|trhod177/rbm/init/BlockInit.java|972|982|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|972|982|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|983|1006|reinforced_birch_planks|field|trhod177.rbm.init.BlockInit|reinforced_birch_planks|
+   @|trhod177/rbm/init/BlockInit.java|1013|1023|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1049|1063|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+   @|trhod177/rbm/init/BlockInit.java|1064|1076|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|trhod177/rbm/init/BlockInit.java|1077|1092|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
+   @|trhod177/rbm/init/BlockInit.java|1111|1121|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1111|1121|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1122|1146|reinforced_spruce_planks|field|trhod177.rbm.init.BlockInit|reinforced_spruce_planks|
+   @|trhod177/rbm/init/BlockInit.java|1153|1163|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1190|1204|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+   @|trhod177/rbm/init/BlockInit.java|1205|1217|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|trhod177/rbm/init/BlockInit.java|1218|1233|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
+   @|trhod177/rbm/init/BlockInit.java|1252|1262|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1252|1262|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1263|1287|reinforced_jungle_planks|field|trhod177.rbm.init.BlockInit|reinforced_jungle_planks|
+   @|trhod177/rbm/init/BlockInit.java|1294|1304|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1331|1345|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+   @|trhod177/rbm/init/BlockInit.java|1346|1358|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|trhod177/rbm/init/BlockInit.java|1359|1374|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
+   @|trhod177/rbm/init/BlockInit.java|1393|1403|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1393|1403|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1404|1428|reinforced_acacia_planks|field|trhod177.rbm.init.BlockInit|reinforced_acacia_planks|
+   @|trhod177/rbm/init/BlockInit.java|1435|1445|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1472|1486|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+   @|trhod177/rbm/init/BlockInit.java|1487|1499|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|trhod177/rbm/init/BlockInit.java|1500|1515|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
+   @|trhod177/rbm/init/BlockInit.java|1534|1544|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1534|1544|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1545|1571|reinforced_dark_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_dark_oak_planks|
+   @|trhod177/rbm/init/BlockInit.java|1578|1588|CustomWood|class|trhod177.rbm.blocks.CustomWood
+   @|trhod177/rbm/init/BlockInit.java|1616|1630|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+   @|trhod177/rbm/init/BlockInit.java|1631|1643|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|trhod177/rbm/init/BlockInit.java|1644|1659|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
+   Method Start: register(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|trhod177/rbm/init/BlockInit.java|2541|2549|registry|param|trhod177.rbm.init.BlockInit|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|trhod177/rbm/init/BlockInit.java|2510|2518|register|method|trhod177.rbm.init.BlockInit|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|trhod177/rbm/init/BlockInit.java|2519|2533|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry
+      @|trhod177/rbm/init/BlockInit.java|2534|2539|Block|class|net.minecraft.block.Block
+      @|trhod177/rbm/init/BlockInit.java|2555|2563|registry|param|trhod177.rbm.init.BlockInit|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|trhod177/rbm/init/BlockInit.java|2564|2575|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|trhod177/rbm/init/BlockInit.java|2581|2602|reinforced_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_oak_planks
+      @|trhod177/rbm/init/BlockInit.java|2608|2631|reinforced_birch_planks|field|trhod177.rbm.init.BlockInit|reinforced_birch_planks
+      @|trhod177/rbm/init/BlockInit.java|2637|2661|reinforced_spruce_planks|field|trhod177.rbm.init.BlockInit|reinforced_spruce_planks
+      @|trhod177/rbm/init/BlockInit.java|2667|2691|reinforced_jungle_planks|field|trhod177.rbm.init.BlockInit|reinforced_jungle_planks
+      @|trhod177/rbm/init/BlockInit.java|2697|2721|reinforced_acacia_planks|field|trhod177.rbm.init.BlockInit|reinforced_acacia_planks
+      @|trhod177/rbm/init/BlockInit.java|2727|2753|reinforced_dark_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_dark_oak_planks
+   Method End: register(Lnet/minecraftforge/registries/IForgeRegistry;)V
+   Method Start: registerItemBlocks(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|trhod177/rbm/init/BlockInit.java|2999|3007|registry|param|trhod177.rbm.init.BlockInit|registerItemBlocks|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|trhod177/rbm/init/BlockInit.java|2959|2977|registerItemBlocks|method|trhod177.rbm.init.BlockInit|registerItemBlocks|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|trhod177/rbm/init/BlockInit.java|2978|2992|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry
+      @|trhod177/rbm/init/BlockInit.java|2993|2997|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/init/BlockInit.java|3013|3021|registry|param|trhod177.rbm.init.BlockInit|registerItemBlocks|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|trhod177/rbm/init/BlockInit.java|3022|3033|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|trhod177/rbm/init/BlockInit.java|3038|3059|reinforced_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_oak_planks
+      @|trhod177/rbm/init/BlockInit.java|3060|3075|createItemBlock|method|trhod177.rbm.blocks.CustomBlock|createItemBlock|()Lnet/minecraft/item/Item;
+      @|trhod177/rbm/init/BlockInit.java|3082|3105|reinforced_birch_planks|field|trhod177.rbm.init.BlockInit|reinforced_birch_planks
+      @|trhod177/rbm/init/BlockInit.java|3106|3121|createItemBlock|method|trhod177.rbm.blocks.CustomBlock|createItemBlock|()Lnet/minecraft/item/Item;
+      @|trhod177/rbm/init/BlockInit.java|3128|3152|reinforced_spruce_planks|field|trhod177.rbm.init.BlockInit|reinforced_spruce_planks
+      @|trhod177/rbm/init/BlockInit.java|3153|3168|createItemBlock|method|trhod177.rbm.blocks.CustomBlock|createItemBlock|()Lnet/minecraft/item/Item;
+      @|trhod177/rbm/init/BlockInit.java|3175|3199|reinforced_jungle_planks|field|trhod177.rbm.init.BlockInit|reinforced_jungle_planks
+      @|trhod177/rbm/init/BlockInit.java|3200|3215|createItemBlock|method|trhod177.rbm.blocks.CustomBlock|createItemBlock|()Lnet/minecraft/item/Item;
+      @|trhod177/rbm/init/BlockInit.java|3222|3248|reinforced_dark_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_dark_oak_planks
+      @|trhod177/rbm/init/BlockInit.java|3249|3264|createItemBlock|method|trhod177.rbm.blocks.CustomBlock|createItemBlock|()Lnet/minecraft/item/Item;
+      @|trhod177/rbm/init/BlockInit.java|3271|3295|reinforced_acacia_planks|field|trhod177.rbm.init.BlockInit|reinforced_acacia_planks
+      @|trhod177/rbm/init/BlockInit.java|3296|3311|createItemBlock|method|trhod177.rbm.blocks.CustomBlock|createItemBlock|()Lnet/minecraft/item/Item;
+   Method End: registerItemBlocks(Lnet/minecraftforge/registries/IForgeRegistry;)V
+   Method Start: registerModels()V
+      @|trhod177/rbm/init/BlockInit.java|3622|3636|registerModels|method|trhod177.rbm.init.BlockInit|registerModels|()V
+      @|trhod177/rbm/init/BlockInit.java|3643|3664|reinforced_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_oak_planks
+      @|trhod177/rbm/init/BlockInit.java|3665|3682|registerItemModel|method|trhod177.rbm.blocks.CustomBlock|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|trhod177/rbm/init/BlockInit.java|3683|3687|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/init/BlockInit.java|3688|3704|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|trhod177/rbm/init/BlockInit.java|3705|3726|reinforced_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_oak_planks
+      @|trhod177/rbm/init/BlockInit.java|3732|3755|reinforced_birch_planks|field|trhod177.rbm.init.BlockInit|reinforced_birch_planks
+      @|trhod177/rbm/init/BlockInit.java|3756|3773|registerItemModel|method|trhod177.rbm.blocks.CustomBlock|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|trhod177/rbm/init/BlockInit.java|3774|3778|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/init/BlockInit.java|3779|3795|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|trhod177/rbm/init/BlockInit.java|3796|3819|reinforced_birch_planks|field|trhod177.rbm.init.BlockInit|reinforced_birch_planks
+      @|trhod177/rbm/init/BlockInit.java|3825|3849|reinforced_spruce_planks|field|trhod177.rbm.init.BlockInit|reinforced_spruce_planks
+      @|trhod177/rbm/init/BlockInit.java|3850|3867|registerItemModel|method|trhod177.rbm.blocks.CustomBlock|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|trhod177/rbm/init/BlockInit.java|3868|3872|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/init/BlockInit.java|3873|3889|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|trhod177/rbm/init/BlockInit.java|3890|3914|reinforced_spruce_planks|field|trhod177.rbm.init.BlockInit|reinforced_spruce_planks
+      @|trhod177/rbm/init/BlockInit.java|3920|3944|reinforced_jungle_planks|field|trhod177.rbm.init.BlockInit|reinforced_jungle_planks
+      @|trhod177/rbm/init/BlockInit.java|3945|3962|registerItemModel|method|trhod177.rbm.blocks.CustomBlock|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|trhod177/rbm/init/BlockInit.java|3963|3967|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/init/BlockInit.java|3968|3984|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|trhod177/rbm/init/BlockInit.java|3985|4009|reinforced_jungle_planks|field|trhod177.rbm.init.BlockInit|reinforced_jungle_planks
+      @|trhod177/rbm/init/BlockInit.java|4015|4039|reinforced_acacia_planks|field|trhod177.rbm.init.BlockInit|reinforced_acacia_planks
+      @|trhod177/rbm/init/BlockInit.java|4040|4057|registerItemModel|method|trhod177.rbm.blocks.CustomBlock|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|trhod177/rbm/init/BlockInit.java|4058|4062|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/init/BlockInit.java|4063|4079|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|trhod177/rbm/init/BlockInit.java|4080|4104|reinforced_acacia_planks|field|trhod177.rbm.init.BlockInit|reinforced_acacia_planks
+      @|trhod177/rbm/init/BlockInit.java|4110|4136|reinforced_dark_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_dark_oak_planks
+      @|trhod177/rbm/init/BlockInit.java|4137|4154|registerItemModel|method|trhod177.rbm.blocks.CustomBlock|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|trhod177/rbm/init/BlockInit.java|4155|4159|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/init/BlockInit.java|4160|4176|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|trhod177/rbm/init/BlockInit.java|4177|4203|reinforced_dark_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_dark_oak_planks
+   Method End: registerModels()V
+Class End  : trhod177.rbm.init.BlockInit
+endProcessing "trhod177/rbm/init/BlockInit.java"
+
+startProcessing "trhod177/rbm/init/ItemInit.java" md5: b59276de136c27b4417ee02b6475e106
+@|trhod177/rbm/init/ItemInit.java|8|25|trhod177.rbm.init|package|trhod177.rbm.init|(file)
+Class Start: trhod177.rbm.init.ItemInit
+   @|trhod177/rbm/init/ItemInit.java|204|212|ItemInit|class|trhod177.rbm.init.ItemInit
+   @|trhod177/rbm/init/ItemInit.java|232|240|ItemBase|class|trhod177.rbm.items.ItemBase
+   @|trhod177/rbm/init/ItemInit.java|232|240|ItemBase|class|trhod177.rbm.items.ItemBase
+   @|trhod177/rbm/init/ItemInit.java|241|262|ObsidianReinforcement|field|trhod177.rbm.init.ItemInit|ObsidianReinforcement|
+   @|trhod177/rbm/init/ItemInit.java|269|277|ItemBase|class|trhod177.rbm.items.ItemBase
+   @|trhod177/rbm/init/ItemInit.java|303|317|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+   @|trhod177/rbm/init/ItemInit.java|318|337|ReinforcedBlocksMod|class|trhod177.rbm.ReinforcedBlocksMod
+   @|trhod177/rbm/init/ItemInit.java|338|360|reinforcedblocksmodtab|field|trhod177.rbm.ReinforcedBlocksMod|reinforcedblocksmodtab
+   Method Start: register(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|trhod177/rbm/init/ItemInit.java|415|423|registry|param|trhod177.rbm.init.ItemInit|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|trhod177/rbm/init/ItemInit.java|385|393|register|method|trhod177.rbm.init.ItemInit|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|trhod177/rbm/init/ItemInit.java|394|408|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry
+      @|trhod177/rbm/init/ItemInit.java|409|413|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/init/ItemInit.java|430|438|registry|param|trhod177.rbm.init.ItemInit|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|trhod177/rbm/init/ItemInit.java|439|450|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|trhod177/rbm/init/ItemInit.java|459|480|ObsidianReinforcement|field|trhod177.rbm.init.ItemInit|ObsidianReinforcement
+   Method End: register(Lnet/minecraftforge/registries/IForgeRegistry;)V
+   Method Start: registerModels()V
+      @|trhod177/rbm/init/ItemInit.java|526|540|registerModels|method|trhod177.rbm.init.ItemInit|registerModels|()V
+      @|trhod177/rbm/init/ItemInit.java|550|571|ObsidianReinforcement|field|trhod177.rbm.init.ItemInit|ObsidianReinforcement
+      @|trhod177/rbm/init/ItemInit.java|572|589|registerItemModel|method|trhod177.rbm.items.ItemBase|registerItemModel|()V
+   Method End: registerModels()V
+Class End  : trhod177.rbm.init.ItemInit
+endProcessing "trhod177/rbm/init/ItemInit.java"
+
+startProcessing "trhod177/rbm/items/ItemBase.java" md5: 64b0666dbf72f5bd64bbbc24d8dc7bdb
+@|trhod177/rbm/items/ItemBase.java|8|26|trhod177.rbm.items|package|trhod177.rbm.items|(file)
+Class Start: trhod177.rbm.items.ItemBase
+   @|trhod177/rbm/items/ItemBase.java|163|171|ItemBase|class|trhod177.rbm.items.ItemBase
+   @|trhod177/rbm/items/ItemBase.java|180|184|Item|class|net.minecraft.item.Item
+   @|trhod177/rbm/items/ItemBase.java|200|206|String|class|java.lang.String
+   @|trhod177/rbm/items/ItemBase.java|200|206|String|class|java.lang.String
+   @|trhod177/rbm/items/ItemBase.java|207|211|name|field|trhod177.rbm.items.ItemBase|name|
+   Method Start: ItemBase(Ljava/lang/String;)V
+      @|trhod177/rbm/items/ItemBase.java|238|242|name|param|trhod177.rbm.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|trhod177/rbm/items/ItemBase.java|222|230|ItemBase|method|trhod177.rbm.items.ItemBase|ItemBase|(Ljava/lang/String;)V
+      @|trhod177/rbm/items/ItemBase.java|231|237|String|class|java.lang.String
+      @|trhod177/rbm/items/ItemBase.java|253|257|name|field|trhod177.rbm.items.ItemBase|name
+      @|trhod177/rbm/items/ItemBase.java|260|264|name|param|trhod177.rbm.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|trhod177/rbm/items/ItemBase.java|268|286|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|trhod177/rbm/items/ItemBase.java|287|291|name|param|trhod177.rbm.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|trhod177/rbm/items/ItemBase.java|296|311|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|trhod177/rbm/items/ItemBase.java|312|316|name|param|trhod177.rbm.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+   Method End: ItemBase(Ljava/lang/String;)V
+   Method Start: registerItemModel()V
+      @|trhod177/rbm/items/ItemBase.java|337|354|registerItemModel|method|trhod177.rbm.items.ItemBase|registerItemModel|()V
+      @|trhod177/rbm/items/ItemBase.java|361|380|ReinforcedBlocksMod|class|trhod177.rbm.ReinforcedBlocksMod
+      @|trhod177/rbm/items/ItemBase.java|381|386|proxy|field|trhod177.rbm.ReinforcedBlocksMod|proxy
+      @|trhod177/rbm/items/ItemBase.java|387|407|registerItemRenderer|method|trhod177.rbm.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|trhod177/rbm/items/ItemBase.java|417|421|name|field|trhod177.rbm.items.ItemBase|name
+   Method End: registerItemModel()V
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Ltrhod177/rbm/items/ItemBase;
+      @|trhod177/rbm/items/ItemBase.java|485|488|tab|param|trhod177.rbm.items.ItemBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Ltrhod177/rbm/items/ItemBase;|tab|0
+      @|trhod177/rbm/items/ItemBase.java|431|439|Override|class|java.lang.Override
+      @|trhod177/rbm/items/ItemBase.java|448|456|ItemBase|class|trhod177.rbm.items.ItemBase
+      @|trhod177/rbm/items/ItemBase.java|457|471|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|trhod177/rbm/items/ItemBase.java|472|484|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|trhod177/rbm/items/ItemBase.java|500|514|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|trhod177/rbm/items/ItemBase.java|515|534|ReinforcedBlocksMod|class|trhod177.rbm.ReinforcedBlocksMod
+      @|trhod177/rbm/items/ItemBase.java|535|557|reinforcedblocksmodtab|field|trhod177.rbm.ReinforcedBlocksMod|reinforcedblocksmodtab
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Ltrhod177/rbm/items/ItemBase;
+Class End  : trhod177.rbm.items.ItemBase
+endProcessing "trhod177/rbm/items/ItemBase.java"
+
+startProcessing "trhod177/rbm/proxy/ClientProxy.java" md5: f5dc2d362f9018f399bf5affc785ed04
+@|trhod177/rbm/proxy/ClientProxy.java|8|26|trhod177.rbm.proxy|package|trhod177.rbm.proxy|(file)
+Class Start: trhod177.rbm.proxy.ClientProxy
+   @|trhod177/rbm/proxy/ClientProxy.java|307|318|ClientProxy|class|trhod177.rbm.proxy.ClientProxy
+   @|trhod177/rbm/proxy/ClientProxy.java|327|338|CommonProxy|class|trhod177.rbm.proxy.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trhod177/rbm/proxy/ClientProxy.java|390|395|event|param|trhod177.rbm.proxy.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|trhod177/rbm/proxy/ClientProxy.java|356|363|preInit|method|trhod177.rbm.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trhod177/rbm/proxy/ClientProxy.java|364|389|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|trhod177/rbm/proxy/ClientProxy.java|410|417|preInit|method|trhod177.rbm.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trhod177/rbm/proxy/ClientProxy.java|418|423|event|param|trhod177.rbm.proxy.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trhod177/rbm/proxy/ClientProxy.java|474|479|event|param|trhod177.rbm.proxy.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|trhod177/rbm/proxy/ClientProxy.java|446|450|init|method|trhod177.rbm.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trhod177/rbm/proxy/ClientProxy.java|451|473|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|trhod177/rbm/proxy/ClientProxy.java|503|507|init|method|trhod177.rbm.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trhod177/rbm/proxy/ClientProxy.java|508|513|event|param|trhod177.rbm.proxy.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trhod177/rbm/proxy/ClientProxy.java|572|577|event|param|trhod177.rbm.proxy.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|trhod177/rbm/proxy/ClientProxy.java|536|544|postInit|method|trhod177.rbm.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trhod177/rbm/proxy/ClientProxy.java|545|571|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|trhod177/rbm/proxy/ClientProxy.java|592|600|postInit|method|trhod177.rbm.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trhod177/rbm/proxy/ClientProxy.java|601|606|event|param|trhod177.rbm.proxy.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : trhod177.rbm.proxy.ClientProxy
+endProcessing "trhod177/rbm/proxy/ClientProxy.java"
+
+startProcessing "trhod177/rbm/proxy/CommonProxy.java" md5: fa98313158aca681644303c58a159545
+@|trhod177/rbm/proxy/CommonProxy.java|8|26|trhod177.rbm.proxy|package|trhod177.rbm.proxy|(file)
+Class Start: trhod177.rbm.proxy.CommonProxy
+   @|trhod177/rbm/proxy/CommonProxy.java|535|546|CommonProxy|class|trhod177.rbm.proxy.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trhod177/rbm/proxy/CommonProxy.java|603|608|event|param|trhod177.rbm.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|trhod177/rbm/proxy/CommonProxy.java|569|576|preInit|method|trhod177.rbm.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|trhod177/rbm/proxy/CommonProxy.java|577|602|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trhod177/rbm/proxy/CommonProxy.java|667|672|event|param|trhod177.rbm.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|trhod177/rbm/proxy/CommonProxy.java|639|643|init|method|trhod177.rbm.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|trhod177/rbm/proxy/CommonProxy.java|644|666|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trhod177/rbm/proxy/CommonProxy.java|735|740|event|param|trhod177.rbm.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|trhod177/rbm/proxy/CommonProxy.java|699|707|postInit|method|trhod177.rbm.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|trhod177/rbm/proxy/CommonProxy.java|708|734|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|trhod177/rbm/proxy/CommonProxy.java|791|795|item|param|trhod177.rbm.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|trhod177/rbm/proxy/CommonProxy.java|801|805|meta|param|trhod177.rbm.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|trhod177/rbm/proxy/CommonProxy.java|814|816|id|param|trhod177.rbm.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|trhod177/rbm/proxy/CommonProxy.java|765|785|registerItemRenderer|method|trhod177.rbm.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|trhod177/rbm/proxy/CommonProxy.java|786|790|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/proxy/CommonProxy.java|807|813|String|class|java.lang.String
+      @|trhod177/rbm/proxy/CommonProxy.java|822|833|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|trhod177/rbm/proxy/CommonProxy.java|834|864|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|trhod177/rbm/proxy/CommonProxy.java|865|869|item|param|trhod177.rbm.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|trhod177/rbm/proxy/CommonProxy.java|871|875|meta|param|trhod177.rbm.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|trhod177/rbm/proxy/CommonProxy.java|881|902|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|trhod177/rbm/proxy/CommonProxy.java|903|912|Reference|class|trhod177.rbm.Reference
+      @|trhod177/rbm/proxy/CommonProxy.java|913|918|MODID|field|trhod177.rbm.Reference|MODID
+      @|trhod177/rbm/proxy/CommonProxy.java|927|929|id|param|trhod177.rbm.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : trhod177.rbm.proxy.CommonProxy
+endProcessing "trhod177/rbm/proxy/CommonProxy.java"
+
+startProcessing "trhod177/rbm/tabs/ReinforcedBlocksModTab.java" md5: 0e4489aee055e5bae73d952ec6774cb7
+@|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|8|25|trhod177.rbm.tabs|package|trhod177.rbm.tabs|(file)
+Class Start: trhod177.rbm.tabs.ReinforcedBlocksModTab
+   @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|194|216|ReinforcedBlocksModTab|class|trhod177.rbm.tabs.ReinforcedBlocksModTab
+   @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|225|237|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   Method Start: ReinforcedBlocksModTab(Ljava/lang/String;)V
+      @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|281|286|label|param|trhod177.rbm.tabs.ReinforcedBlocksModTab|ReinforcedBlocksModTab|(Ljava/lang/String;)V|label|0
+      @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|251|273|ReinforcedBlocksModTab|method|trhod177.rbm.tabs.ReinforcedBlocksModTab|ReinforcedBlocksModTab|(Ljava/lang/String;)V
+      @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|274|280|String|class|java.lang.String
+      @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|332|354|setBackgroundImageName|method|net.minecraft.creativetab.CreativeTabs|setBackgroundImageName|(Ljava/lang/String;)Lnet/minecraft/creativetab/CreativeTabs;
+   Method End: ReinforcedBlocksModTab(Ljava/lang/String;)V
+   Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+      @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|384|393|ItemStack|class|net.minecraft.item.ItemStack
+      @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|394|408|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+      @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|426|435|ItemStack|class|net.minecraft.item.ItemStack
+      @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|436|440|Item|class|net.minecraft.item.Item
+      @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|441|457|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|458|467|BlockInit|class|trhod177.rbm.init.BlockInit
+      @|trhod177/rbm/tabs/ReinforcedBlocksModTab.java|468|489|reinforced_oak_planks|field|trhod177.rbm.init.BlockInit|reinforced_oak_planks
+   Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+Class End  : trhod177.rbm.tabs.ReinforcedBlocksModTab
+endProcessing "trhod177/rbm/tabs/ReinforcedBlocksModTab.java"
+

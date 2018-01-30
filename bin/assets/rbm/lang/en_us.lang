@@ -1,0 +1,20 @@
+itemGroup.reinforcedblocksmodtab= Reinforced Blocks Mod
+
+
+tile.reinforcedoakplanks.name= Reinforced Oak Planks
+tile.reinforcedspruceplanks.name= Reinforced Spruce Planks
+tile.reinforcedjungleplanks.name= Reinforced Jungle Planks
+tile.reinforcedacaciaplanks.name= Reinforced Acacia Planks
+tile.reinforceddarkoakplanks.name= Reinforced Dark Oak Planks
+tile.reinforcedbirchplanks.name= Reinforced Birch Planks
+tile.reinforcedbirchlog.name= Reinforced Birch Log
+tile.reinforcedoaklog.name= Reinforced Oak Log
+tile.reinforcedsprucelog.name= Reinforced Spruce Log
+tile.reinforcedjunglelog.name= Reinforced Jungle Log
+tile.reinforcedacacialog.name= Reinforced Acacia Log
+tile.reinforceddarkoaklog.name= Reinforced Dark Oak Log
+
+
+
+item.ObsidianReinforcement.name= Obsidian Reinforcement
+
