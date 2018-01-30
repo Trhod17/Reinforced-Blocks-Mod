@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":  { "model": "rbm:block/reinforced birch log" },
+        "axis=z":   { "model": "rbm:block/reinforced birch log", "x": 90 },
+        "axis=x":   { "model": "rbm:block/reinforced birch log", "x": 90, "y": 90 },
+        "axis=none": { "model": "" }
+    }
+}

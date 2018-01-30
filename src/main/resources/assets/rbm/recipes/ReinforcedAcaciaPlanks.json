@@ -1,0 +1,27 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PAP",
+    " P "  ],
+  "key": {
+    "A": 
+      {
+        "item": "minecraft:planks",
+        "data": 4
+      },
+    "P": 
+{
+   "item": "rbm:ObsidianReinforcement"
+    
+}
+
+  
+    
+  },
+  "result": {
+    "item": "rbm:reinforcedacaciaplanks",
+    "count": 8
+    
+  }
+}
