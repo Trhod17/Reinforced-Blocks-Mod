@@ -1,0 +1,27 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PAP",
+    " P "  ],
+  "key": {
+    "A": 
+      {
+        "item": "minecraft:stone",
+        "data": 6
+      },
+    "P": 
+{
+   "item": "rbm:ObsidianReinforcement"
+    
+}
+
+  
+    
+  },
+  "result": {
+    "item": "rbm:reinforcedandesitesmooth",
+    "count": 8
+    
+  }
+}
