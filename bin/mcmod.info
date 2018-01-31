@@ -3,7 +3,7 @@
   "modid": "RIBM",
   "name": "Reinforced Blocks Mod",
   "description": "Reinforced Blocks Mod",
-  "version": "${1}",
+  "version": "${}",
   "mcversion": "${1.12}",
   "url": "",
   "updateUrl": "",
