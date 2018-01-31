@@ -13,7 +13,7 @@ import trhod177.rbm.init.BlockInit;
 		
 			setHardness(25f);
 			setResistance(6000f);
-			
+			this.setHarvestLevel("axe", 2);
 			
 		}
 		

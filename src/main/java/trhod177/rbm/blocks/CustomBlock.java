@@ -19,7 +19,7 @@ public class CustomBlock extends Block {
 	
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setHarvestLevel("axe", 2);
+		
 	}
 	
 	public void registerItemModel(Item itemBlock) {
