@@ -22,6 +22,7 @@ public class CustomBlock extends Block {
 		
 	}
 	
+	
 	public void registerItemModel(Item itemBlock) {
 		ReinforcedBlocksMod.proxy.registerItemRenderer(itemBlock, 0, name);
 	}
