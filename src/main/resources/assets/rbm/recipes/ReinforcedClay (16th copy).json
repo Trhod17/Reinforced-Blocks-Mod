@@ -1,0 +1,27 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PAP",
+    " P "  ],
+  "key": {
+    "A": 
+      {
+        "item": "minecraft:stained_hardened_clay",
+        "data": 15
+      },
+    "P": 
+{
+   "item": "rbm:ObsidianReinforcement"
+    
+}
+
+  
+    
+  },
+  "result": {
+    "item": "rbm:reinforcedclayblack",
+    "count": 8
+    
+  }
+}

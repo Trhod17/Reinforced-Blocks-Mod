@@ -27,9 +27,24 @@ tile.reinforceddorite.name= Reinforced Diorite
 tile.reinforceddoritesmooth.name= Reinforced Polished Diorite
 tile.reinforcedgranite.name= Reinforced Granite
 tile.reinforcedgranitesmooth.name= Reinforced Polished Granite
-
-
-
+tile.reinforcedglass.name= Reinforced Glass
+tile.reinforcedclay.name= Reinforced Terracotta
+tile.reinforcedclayyellow.name= Reinforced Yellow Terracotta
+tile.reinforcedclayblue.name= Reinforced Blue Terracotta
+tile.reinforcedclayred.name= Reinforced Red Terracotta
+tile.reinforcedclaysilver.name= Reinforced Silver Terracotta
+tile.reinforcedclaygray.name= Reinforced Gray Terracotta
+tile.reinforcedclaybrown.name= Reinforced Brown Terracotta
+tile.reinforcedclaylightblue.name= Reinforced LightBlue Terracotta
+tile.reinforcedclaylime.name= Reinforced Lime Terracotta
+tile.reinforcedclaymagenta.name= Reinforced Magenta Terracotta
+tile.reinforcedclaypink.name= Reinforced Pink Terracotta
+tile.reinforcedclaypurple.name= Reinforced Purple Terracotta
+tile.reinforcedclaywhite.name= Reinforced White Terracotta
+tile.reinforcedclayorange.name= Reinforced Orange Terracotta
+tile.reinforcedclaygreen.name= Reinforced Green Terracotta
+tile.reinforcedclaycyan.name= Reinforced Cyan Terracotta
+tile.reinforcedclayblack.name= Reinforced Black Terracotta
 
 item.ObsidianReinforcement.name= Obsidian Reinforcement
 
