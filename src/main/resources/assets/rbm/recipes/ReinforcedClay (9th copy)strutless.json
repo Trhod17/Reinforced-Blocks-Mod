@@ -1,0 +1,27 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PAP",
+    " P "  ],
+  "key": {
+    "A": 
+      {
+        "item": "minecraft:stained_hardened_clay",
+        "data": 6
+      },
+    "P": 
+{
+   "item": "rbm:GlassReinforcement"
+    
+}
+
+  
+    
+  },
+  "result": {
+    "item": "rbm:reinforcedclaypinkstrutless",
+    "count": 8
+    
+  }
+}

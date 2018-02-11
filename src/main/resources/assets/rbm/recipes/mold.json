@@ -1,0 +1,27 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PAP",
+    " P "  ],
+  "key": {
+    "P": 
+      {
+        "item": "minecraft:gold_ingot"
+        
+      },
+    "A": 
+{
+   "item": "rbm:ObsidianReinforcement"
+    
+}
+
+  
+    
+  },
+  "result": {
+    "item": "rbm:StrutMold",
+    "count": 8
+    
+  }
+}

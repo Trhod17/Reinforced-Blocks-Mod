@@ -1,0 +1,33 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "DAD",
+    " P "  ],
+  "key": {
+    "P": 
+      {
+        "item": "minecraft:glass"
+        
+      },
+    "A": 
+{
+   "item": "rbm:redhotstrutmold"
+    
+},
+
+"D": {
+  
+   "item": "minecraft:obsidian"
+
+}
+  
+    
+  },
+  "result": {
+    "item": "rbm:GlassReinforcement",
+    "count": 8
+    
+    
+  }
+}

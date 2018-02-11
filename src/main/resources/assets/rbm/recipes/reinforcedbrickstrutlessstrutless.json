@@ -1,0 +1,27 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PAP",
+    " P "  ],
+  "key": {
+    "A": 
+      {
+        "item": "minecraft:brick_block"
+       
+      },
+    "P": 
+{
+   "item": "rbm:GlassReinforcement"
+    
+}
+
+  
+    
+  },
+  "result": {
+    "item": "rbm:reinforcedbrickstrutless",
+    "count": 8
+    
+  }
+}
