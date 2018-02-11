@@ -12,9 +12,12 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.registries.IForgeRegistry;
 import trhod177.rbm.Reference;
 import trhod177.rbm.blocks.CustomClay;
+import trhod177.rbm.blocks.CustomClayStrutless;
 import trhod177.rbm.blocks.CustomGlass;
 import trhod177.rbm.blocks.CustomStone;
+import trhod177.rbm.blocks.CustomStoneStrutless;
 import trhod177.rbm.blocks.CustomWood;
+import trhod177.rbm.blocks.CustomWoodStrutless;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -64,6 +67,53 @@ public class BlockInit {
 	public static CustomClay reinforcedclayblack = new CustomClay("reinforcedclayblack").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static CustomWoodStrutless reinforced_oak_planks_strutless = new CustomWoodStrutless("reinforcedoakplanksstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomWoodStrutless reinforced_birch_planks_strutless = new CustomWoodStrutless("reinforcedbirchplanksstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);;
+	public static CustomWoodStrutless reinforced_spruce_planks_strutless = new CustomWoodStrutless("reinforcedspruceplanksstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);;
+	public static CustomWoodStrutless reinforced_jungle_planks_strutless = new CustomWoodStrutless("reinforcedjungleplanksstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);;
+	public static CustomWoodStrutless reinforced_acacia_planks_strutless = new CustomWoodStrutless("reinforcedacaciaplanksstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);;
+	public static CustomWoodStrutless reinforced_dark_oak_planks_strutless = new CustomWoodStrutless("reinforceddarkoakplanksstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);;
+	public static CustomStoneStrutless reinforcedbrickstrutless = new CustomStoneStrutless("reinforcedbrickstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforcedcobblestonestrutless = new CustomStoneStrutless("reinforcedcobblestonestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforcedmossycobblestonestrutless = new CustomStoneStrutless("reinforcedmossycobblestonestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforcedstonestrutless = new CustomStoneStrutless("reinforcedstonestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforcedandesitestrutless = new CustomStoneStrutless("reinforcedandesitestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforcedandesitesmoothstrutless = new CustomStoneStrutless("reinforcedandesitesmoothstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforcedstonebrickstrutless = new CustomStoneStrutless("reinforcedstonebrickstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforcedstonebrickcarvedstrutless = new CustomStoneStrutless("reinforcedstonebrickcarvedstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforcedstonebrickcrackedstrutless = new CustomStoneStrutless("reinforcedstonebrickcrackedstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforcedstonebrickmossystrutless = new CustomStoneStrutless("reinforcedstonebrickmossystrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforceddoritestrutless = new CustomStoneStrutless("reinforceddoritestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforceddoritesmoothstrutless = new CustomStoneStrutless("reinforceddoritesmoothstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforcedgranitestrutless = new CustomStoneStrutless("reinforcedgranitestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomStoneStrutless reinforcedgranitesmoothstrutless = new CustomStoneStrutless("reinforcedgranitesmoothstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaystrutless = new CustomClayStrutless("reinforcedclaystrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaybluestrutless = new CustomClayStrutless("reinforcedclaybluestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaybrownstrutless = new CustomClayStrutless("reinforcedclaybrownstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaycyanstrutless = new CustomClayStrutless("reinforcedclaycyanstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaygraystrutless = new CustomClayStrutless("reinforcedclaygraystrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaygreenstrutless = new CustomClayStrutless("reinforcedclaygreenstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaylightbluestrutless = new CustomClayStrutless("reinforcedclaylightbluestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaylimestrutless = new CustomClayStrutless("reinforcedclaylimestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaymagentastrutless = new CustomClayStrutless("reinforcedclaymagentastrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclayorangestrutless = new CustomClayStrutless("reinforcedclayorangestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaypinkstrutless = new CustomClayStrutless("reinforcedclaypinkstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaypurplestrutless = new CustomClayStrutless("reinforcedclaypurplestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclayredstrutless = new CustomClayStrutless("reinforcedclayredstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaysilverstrutless = new CustomClayStrutless("reinforcedclaysilverstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclaywhitestrutless = new CustomClayStrutless("reinforcedclaywhitestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclayyellowstrutless = new CustomClayStrutless("reinforcedclayyellowstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomClayStrutless reinforcedclayblackstrutless = new CustomClayStrutless("reinforcedclayblackstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	
+	
 	public static void register(IForgeRegistry<Block> registry) {
 		registry.registerAll(
 				reinforced_oak_planks,
@@ -103,7 +153,44 @@ public class BlockInit {
 				reinforcedclaysilver,
 				reinforcedclaywhite,
 				reinforcedclayyellow,
-				reinforcedclayblack
+				reinforcedclayblack,
+				reinforced_oak_planks_strutless,
+				reinforced_birch_planks_strutless,
+				reinforced_spruce_planks_strutless,
+				reinforced_jungle_planks_strutless,
+				reinforced_acacia_planks_strutless,
+				reinforced_dark_oak_planks_strutless,
+				reinforcedbrickstrutless,
+				reinforcedcobblestonestrutless,
+				reinforcedmossycobblestonestrutless,
+				reinforcedstonestrutless,
+				reinforcedandesitestrutless,
+				reinforcedandesitesmoothstrutless,
+				reinforcedstonebrickstrutless,
+				reinforcedstonebrickcarvedstrutless,
+				reinforcedstonebrickcrackedstrutless,
+				reinforcedstonebrickmossystrutless,
+				reinforceddoritestrutless,
+				reinforceddoritesmoothstrutless,
+				reinforcedgranitestrutless,
+				reinforcedgranitesmoothstrutless,
+				reinforcedclaystrutless,
+				reinforcedclaybluestrutless,
+				reinforcedclaybrownstrutless,
+				reinforcedclaycyanstrutless,
+				reinforcedclaygraystrutless,
+				reinforcedclaygreenstrutless,
+				reinforcedclaylightbluestrutless,
+				reinforcedclaylimestrutless,
+				reinforcedclaymagentastrutless,
+				reinforcedclayorangestrutless,
+				reinforcedclaypinkstrutless,
+				reinforcedclaypurplestrutless,
+				reinforcedclayredstrutless,
+				reinforcedclaysilverstrutless,
+				reinforcedclaywhitestrutless,
+				reinforcedclayyellowstrutless,
+				reinforcedclayblackstrutless
 		);
 	}
 
@@ -146,7 +233,44 @@ public class BlockInit {
 			reinforcedclaysilver.createItemBlock(),
 			reinforcedclaywhite.createItemBlock(),
 			reinforcedclayyellow.createItemBlock(),
-			reinforcedclayblack.createItemBlock()
+			reinforcedclayblack.createItemBlock(),
+			reinforced_oak_planks_strutless.createItemBlock(),
+			reinforced_birch_planks_strutless.createItemBlock(),
+			reinforced_spruce_planks_strutless.createItemBlock(),
+			reinforced_jungle_planks_strutless.createItemBlock(),
+			reinforced_dark_oak_planks_strutless.createItemBlock(),
+			reinforced_acacia_planks_strutless.createItemBlock(),
+			reinforcedbrickstrutless.createItemBlock(),
+			reinforcedcobblestonestrutless.createItemBlock(),
+			reinforcedmossycobblestonestrutless.createItemBlock(),
+			reinforcedstonestrutless.createItemBlock(),
+			reinforcedandesitestrutless.createItemBlock(),
+			reinforcedandesitesmoothstrutless.createItemBlock(),
+			reinforcedstonebrickstrutless.createItemBlock(),
+			reinforcedstonebrickcarvedstrutless.createItemBlock(),
+			reinforcedstonebrickcrackedstrutless.createItemBlock(),
+			reinforcedstonebrickmossystrutless.createItemBlock(),
+			reinforceddoritestrutless.createItemBlock(),
+			reinforceddoritesmoothstrutless.createItemBlock(),
+			reinforcedgranitestrutless.createItemBlock(),
+			reinforcedgranitesmoothstrutless.createItemBlock(),
+			reinforcedclaystrutless.createItemBlock(),
+			reinforcedclaybluestrutless.createItemBlock(),
+			reinforcedclaybrownstrutless.createItemBlock(),
+			reinforcedclaycyanstrutless.createItemBlock(),
+			reinforcedclaygraystrutless.createItemBlock(),
+			reinforcedclaygreenstrutless.createItemBlock(),
+			reinforcedclaylightbluestrutless.createItemBlock(),
+			reinforcedclaylimestrutless.createItemBlock(),
+			reinforcedclaymagentastrutless.createItemBlock(),
+			reinforcedclayorangestrutless.createItemBlock(),
+			reinforcedclaypinkstrutless.createItemBlock(),
+			reinforcedclaypurplestrutless.createItemBlock(),
+			reinforcedclayredstrutless.createItemBlock(),
+			reinforcedclaysilverstrutless.createItemBlock(),
+			reinforcedclaywhitestrutless.createItemBlock(),
+			reinforcedclayyellowstrutless.createItemBlock(),
+			reinforcedclayblackstrutless.createItemBlock()
 		);
 	
 	}
@@ -190,7 +314,44 @@ public class BlockInit {
 		reinforcedclaywhite.registerItemModel(Item.getItemFromBlock(reinforcedclaywhite));
 		reinforcedclayyellow.registerItemModel(Item.getItemFromBlock(reinforcedclayyellow));
 	    reinforcedclayblack.registerItemModel(Item.getItemFromBlock(reinforcedclayblack));
-		
+	    reinforced_oak_planks_strutless.registerItemModel(Item.getItemFromBlock(reinforced_oak_planks_strutless));
+		reinforced_birch_planks_strutless.registerItemModel(Item.getItemFromBlock(reinforced_birch_planks_strutless));
+		reinforced_spruce_planks_strutless.registerItemModel(Item.getItemFromBlock(reinforced_spruce_planks_strutless));
+		reinforced_jungle_planks_strutless.registerItemModel(Item.getItemFromBlock(reinforced_jungle_planks_strutless));
+		reinforced_acacia_planks_strutless.registerItemModel(Item.getItemFromBlock(reinforced_acacia_planks_strutless));
+		reinforced_dark_oak_planks_strutless.registerItemModel(Item.getItemFromBlock(reinforced_dark_oak_planks_strutless));
+		reinforcedbrickstrutless.registerItemModel(Item.getItemFromBlock(reinforcedbrickstrutless));
+		reinforcedcobblestonestrutless.registerItemModel(Item.getItemFromBlock(reinforcedcobblestonestrutless));
+		reinforcedmossycobblestonestrutless.registerItemModel(Item.getItemFromBlock(reinforcedmossycobblestonestrutless));
+		reinforcedstonestrutless.registerItemModel(Item.getItemFromBlock(reinforcedstonestrutless));
+		reinforcedandesitestrutless.registerItemModel(Item.getItemFromBlock(reinforcedandesitestrutless));
+		reinforcedandesitesmoothstrutless.registerItemModel(Item.getItemFromBlock(reinforcedandesitesmoothstrutless));
+		reinforcedstonebrickstrutless.registerItemModel(Item.getItemFromBlock(reinforcedstonebrickstrutless));
+		reinforcedstonebrickcarvedstrutless.registerItemModel(Item.getItemFromBlock(reinforcedstonebrickcarvedstrutless));
+		reinforcedstonebrickcrackedstrutless.registerItemModel(Item.getItemFromBlock(reinforcedstonebrickcrackedstrutless));
+		reinforcedstonebrickmossystrutless.registerItemModel(Item.getItemFromBlock(reinforcedstonebrickmossystrutless));
+		reinforceddoritestrutless.registerItemModel(Item.getItemFromBlock(reinforceddoritestrutless));
+		reinforceddoritesmoothstrutless.registerItemModel(Item.getItemFromBlock(reinforceddoritesmoothstrutless));
+		reinforcedgranitestrutless.registerItemModel(Item.getItemFromBlock(reinforcedgranitestrutless));
+		reinforcedgranitesmoothstrutless.registerItemModel(Item.getItemFromBlock(reinforcedgranitesmoothstrutless));
+        reinforcedclaystrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaystrutless));
+		reinforcedclaybluestrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaybluestrutless));
+		reinforcedclaybrownstrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaybrownstrutless));
+		reinforcedclaycyanstrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaycyanstrutless));
+		reinforcedclaygraystrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaygraystrutless));
+		reinforcedclaygreenstrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaygreenstrutless));
+		reinforcedclaylightbluestrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaylightbluestrutless));
+		reinforcedclaylimestrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaylimestrutless));
+		reinforcedclaymagentastrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaymagentastrutless));
+		reinforcedclayorangestrutless.registerItemModel(Item.getItemFromBlock(reinforcedclayorangestrutless));
+		reinforcedclaypinkstrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaypinkstrutless));
+		reinforcedclaypurplestrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaypurplestrutless));
+		reinforcedclayredstrutless.registerItemModel(Item.getItemFromBlock(reinforcedclayredstrutless));
+		reinforcedclaysilverstrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaysilverstrutless));
+		reinforcedclaywhitestrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaywhitestrutless));
+		reinforcedclayyellowstrutless.registerItemModel(Item.getItemFromBlock(reinforcedclayyellowstrutless));
+	    reinforcedclayblackstrutless.registerItemModel(Item.getItemFromBlock(reinforcedclayblackstrutless));
+	    
 		
 	}
 

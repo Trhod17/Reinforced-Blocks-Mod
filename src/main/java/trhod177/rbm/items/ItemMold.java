@@ -1,17 +1,20 @@
 package trhod177.rbm.items;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import trhod177.rbm.ReinforcedBlocksMod;
+import trhod177.rbm.init.ItemInit;
 
-public class ItemBase extends Item {
+public class ItemMold extends Item {
 	
 	protected String name;
 
-	public ItemBase(String name) {
+	public ItemMold(String name) {
 		this.name = name;
 		setUnlocalizedName(name);
 		setRegistryName(name);
+		this.setContainerItem(ItemInit.StrutMold);
 	}
 	
 	public void registerItemModel() {
@@ -19,9 +22,13 @@ public class ItemBase extends Item {
 	}
 	
 	@Override
-	public ItemBase setCreativeTab(CreativeTabs tab) {
+	public ItemMold setCreativeTab(CreativeTabs tab) {
 		super.setCreativeTab(ReinforcedBlocksMod.reinforcedblocksmoditemtab);
 		return this;
 
 }
+	
+	
+	
+	
 }

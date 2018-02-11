@@ -21,14 +21,17 @@ import trhod177.rbm.handlers.RecipeHandler;
 import trhod177.rbm.init.BlockInit;
 import trhod177.rbm.init.ItemInit;
 import trhod177.rbm.proxy.CommonProxy;
+import trhod177.rbm.tabs.ReinforcedBlocksModItemTab;
 import trhod177.rbm.tabs.ReinforcedBlocksModTab;
+import trhod177.rbm.tabs.ReinforcedBlocksModTab2;
 
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class ReinforcedBlocksMod {
  
 	public static final CreativeTabs reinforcedblocksmodtab = new ReinforcedBlocksModTab("BlockInit.reinforced_oak_planks");
-	
+	public static final CreativeTabs reinforcedblocksmodtab2 = new ReinforcedBlocksModTab2("BlockInit.reinforced_oak_planks");
+	public static final CreativeTabs reinforcedblocksmoditemtab = new ReinforcedBlocksModItemTab("ItemInit.ObsidianReinforcement");
 	
 	@SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
 	public static CommonProxy proxy;

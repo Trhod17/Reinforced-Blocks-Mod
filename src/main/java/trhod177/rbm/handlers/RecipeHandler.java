@@ -2,6 +2,7 @@ package trhod177.rbm.handlers;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.registries.IForgeRegistry;
@@ -27,8 +28,10 @@ public class RecipeHandler {
 	
 	public static void registerSmelting() {
 		
-		GameRegistry.addSmelting(Blocks.OBSIDIAN, new ItemStack(ItemInit.ObsidianReinforcement, 8), 10.0F);
-		
+		GameRegistry.addSmelting(Blocks.OBSIDIAN, new ItemStack(ItemInit.ObsidianReinforcement, 8), 1.0F);
+		GameRegistry.addSmelting(ItemInit.StrutMold, new ItemStack(ItemInit.redhotstrutmold), 1.0F);
 	}
-
+	
+	
+	
 }

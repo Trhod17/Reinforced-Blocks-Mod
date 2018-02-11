@@ -1,8 +1,8 @@
 package trhod177.rbm.blocks;
 
-
-
+import net.minecraft.block.BlockPlanks;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
@@ -11,10 +11,11 @@ import trhod177.rbm.ReinforcedBlocksMod;
 import trhod177.rbm.init.BlockInit;
 
 
-	public class CustomWood extends CustomBlock {
+	public class CustomWoodStrutless extends CustomBlock {
 
 		
-		public CustomWood(String name) {
+		
+		public CustomWoodStrutless(String name) {
 			super(Material.WOOD, name);
 		
 			setHardness(25f);
@@ -27,12 +28,12 @@ import trhod177.rbm.init.BlockInit;
 		
 		
 		@Override
-		public CustomWood setCreativeTab(CreativeTabs tab) {
-			super.setCreativeTab(ReinforcedBlocksMod.reinforcedblocksmodtab);
+		public CustomWoodStrutless setCreativeTab(CreativeTabs tab) {
+			super.setCreativeTab(ReinforcedBlocksMod.reinforcedblocksmodtab2);
 			return this;
 		}
 		
-	
+		
 
 	}
 
