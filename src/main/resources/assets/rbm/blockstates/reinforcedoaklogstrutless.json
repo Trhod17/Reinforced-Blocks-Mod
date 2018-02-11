@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y":    { "model": "rbm:block/reinforced oak log" },
+        "axis=z":     { "model": "rbm:block/reinforced oak log", "x": 90 },
+        "axis=x":     { "model": "rbm:block/reinforced oak log", "x": 90, "y": 90 },
+        "axis=none":   { "model": "rbm:r_oak_bark" }
+    }
+}
