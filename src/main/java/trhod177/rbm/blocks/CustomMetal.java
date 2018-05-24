@@ -4,10 +4,10 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import trhod177.rbm.ReinforcedBlocksMod;
 
-public class CustomStoneStrutless extends CustomBlock {
+public class CustomMetal extends CustomBlock {
 	
-	public CustomStoneStrutless(String name) {
-		super(Material.ROCK, name);
+	public CustomMetal(String name) {
+		super(Material.IRON, name);
      	
 		setHardness(10f);
 		setResistance(6000f);
@@ -16,14 +16,8 @@ public class CustomStoneStrutless extends CustomBlock {
 	}
 	
 	@Override
-	public CustomStoneStrutless setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(ReinforcedBlocksMod.reinforcedblocksmodtab2);
+	public CustomMetal setCreativeTab(CreativeTabs tab) {
+		super.setCreativeTab(ReinforcedBlocksMod.reinforcedblocksmodtab);
 		return this;
 	}
-	
-	
-
 }
-
-
-

@@ -10,7 +10,7 @@ public class CustomClayStrutless extends CustomBlock {
 	public CustomClayStrutless(String name) {
 		super(Material.ROCK , name);
 		
-		setHardness(25f);
+		setHardness(10f);
 		setResistance(6000f);
         this.setHarvestLevel("pickaxe", 2);
 		

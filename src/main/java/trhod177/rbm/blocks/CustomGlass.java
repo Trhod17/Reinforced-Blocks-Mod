@@ -26,7 +26,7 @@ public class CustomGlass extends CustomBlock{
 		
 		super(Material.GLASS, name);
 		
-		setHardness(25f);
+		setHardness(10f);
 		setResistance(6000f);
 		this.setHarvestLevel("pickaxe", 2);
 		

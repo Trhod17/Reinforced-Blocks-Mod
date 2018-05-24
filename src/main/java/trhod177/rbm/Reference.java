@@ -8,5 +8,6 @@ public class Reference {
 	
 	public static final String CLIENTPROXY = "trhod177.rbm.proxy.ClientProxy";
 	public static final String COMMONPROXY = "trhod177.rbm.proxy.CommonProxy";
+	public static final int GUI_MachineReinforcer = 0;
 	
 }

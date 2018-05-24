@@ -4,9 +4,9 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import trhod177.rbm.ReinforcedBlocksMod;
 
-public class CustomStoneStrutless extends CustomBlock {
+public class CustomNether extends CustomBlock {
 	
-	public CustomStoneStrutless(String name) {
+	public CustomNether(String name) {
 		super(Material.ROCK, name);
      	
 		setHardness(10f);
@@ -16,14 +16,8 @@ public class CustomStoneStrutless extends CustomBlock {
 	}
 	
 	@Override
-	public CustomStoneStrutless setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(ReinforcedBlocksMod.reinforcedblocksmodtab2);
+	public CustomNether setCreativeTab(CreativeTabs tab) {
+		super.setCreativeTab(ReinforcedBlocksMod.reinforcedblocksmodtab);
 		return this;
 	}
-	
-	
-
 }
-
-
-

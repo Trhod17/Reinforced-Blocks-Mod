@@ -18,7 +18,7 @@ import trhod177.rbm.init.BlockInit;
 		public CustomWoodStrutless(String name) {
 			super(Material.WOOD, name);
 		
-			setHardness(25f);
+			setHardness(10f);
 			setResistance(6000f);
 			this.setHarvestLevel("axe", 2);
 			
