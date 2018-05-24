@@ -1,0 +1,13 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "rbm:blocks/block_reinforcer_front_off",
+        "up": "rbm:blocks/block_reinforcer_side1",
+        "down": "rbm:blocks/block_reinforcer_side1",
+        "north": "rbm:blocks/block_reinforcer_front_off",
+        "east": "rbm:blocks/block_reinforcer_side1",
+        "south": "rbm:blocks/block_reinforcer_side3",
+        "west": "rbm:blocks/block_reinforcer_side2"
+    }
+}
+
