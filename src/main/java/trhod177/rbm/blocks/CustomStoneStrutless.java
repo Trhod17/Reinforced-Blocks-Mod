@@ -9,7 +9,7 @@ public class CustomStoneStrutless extends CustomBlock {
 	public CustomStoneStrutless(String name) {
 		super(Material.ROCK, name);
      	
-		setHardness(25f);
+		setHardness(10f);
 		setResistance(6000f);
         this.setHarvestLevel("pickaxe", 2);
 		

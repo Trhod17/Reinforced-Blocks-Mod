@@ -8,9 +8,9 @@ import trhod177.rbm.ReinforcedBlocksMod;
 public class CustomClay extends CustomBlock {
 
 	public CustomClay(String name) {
-		super(Material.ROCK , name);
+		super(Material.ROCK, name);
 		
-		setHardness(25f);
+		setHardness(10f);
 		setResistance(6000f);
         this.setHarvestLevel("pickaxe", 2);
 		

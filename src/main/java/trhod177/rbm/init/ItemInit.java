@@ -19,7 +19,7 @@ public class ItemInit {
 	      StrutMold,
 	      redhotstrutmold,
 	      GlassReinforcement
-		
+		  
 			  );
 	  
 	

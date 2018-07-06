@@ -16,6 +16,8 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
+import trhod177.rbm.handlers.GuiHandler;
 import trhod177.rbm.handlers.OreDictionaryHandler;
 import trhod177.rbm.handlers.RecipeHandler;
 import trhod177.rbm.init.BlockInit;
@@ -66,6 +68,9 @@ public class ReinforcedBlocksMod {
 		public static void registerItems(ModelRegistryEvent event) {
 			ItemInit.registerModels();
 		}
+		
+		
+		
 
 
   
@@ -92,7 +97,7 @@ public class ReinforcedBlocksMod {
 		OreDictionaryHandler.registerOreDictionary();
 		RecipeHandler.registerCrafting();
 		RecipeHandler.registerSmelting();
-		
+		NetworkRegistry.INSTANCE.registerGuiHandler(ReinforcedBlocksMod.instance, new GuiHandler());
 	}
 	
 	@EventHandler

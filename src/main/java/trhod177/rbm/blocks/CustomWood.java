@@ -17,7 +17,7 @@ import trhod177.rbm.init.BlockInit;
 		public CustomWood(String name) {
 			super(Material.WOOD, name);
 		
-			setHardness(25f);
+			setHardness(10f);
 			setResistance(6000f);
 			this.setHarvestLevel("axe", 2);
 			

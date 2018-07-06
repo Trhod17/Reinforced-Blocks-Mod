@@ -1,0 +1,20 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "top": "rbm:blocks/reinforcedquartzblockchiseledtop",
+            "bottom": "rbm:blocks/reinforcedquartzblockchiseledtop",
+            "side": "rbm:blocks/reinforcedquartzblockchiseled"
+        },
+        "model": "cube_all",
+        "uvlock": true
+    },
+    "variants": {
+        	"normal": {
+			"model": "cube_all"
+		},
+		"inventory": {
+			"model": "cube_all"
+		}
+    }
+}

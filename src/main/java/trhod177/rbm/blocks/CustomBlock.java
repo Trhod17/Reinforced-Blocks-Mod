@@ -7,6 +7,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import trhod177.rbm.ReinforcedBlocksMod;
 
+
 public class CustomBlock extends Block {
 
 

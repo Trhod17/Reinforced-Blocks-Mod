@@ -14,10 +14,13 @@ import trhod177.rbm.Reference;
 import trhod177.rbm.blocks.CustomClay;
 import trhod177.rbm.blocks.CustomClayStrutless;
 import trhod177.rbm.blocks.CustomGlass;
+import trhod177.rbm.blocks.CustomMetal;
+import trhod177.rbm.blocks.CustomNether;
 import trhod177.rbm.blocks.CustomStone;
 import trhod177.rbm.blocks.CustomStoneStrutless;
 import trhod177.rbm.blocks.CustomWood;
 import trhod177.rbm.blocks.CustomWoodStrutless;
+import trhod177.rbm.blocks.machines.reinforcer.BlockReinforcer;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -65,13 +68,9 @@ public class BlockInit {
 	public static CustomClay reinforcedclaywhite = new CustomClay("reinforcedclaywhite").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static CustomClay reinforcedclayyellow = new CustomClay("reinforcedclayyellow").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static CustomClay reinforcedclayblack = new CustomClay("reinforcedclayblack").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
-	
-	
-	
-	
-	
-	
-	
+	public static CustomMetal reinforcedironblock = new CustomMetal("reinforcedironblock").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomNether reinforcedquartzblock = new CustomNether("reinforcedquartzblock").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+  //public static CustomNether reinforcedchisledquartzblock= new CustomNether("reinforcedchisledquartzblock").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	
 	
 	
@@ -112,8 +111,16 @@ public class BlockInit {
 	public static CustomClayStrutless reinforcedclaywhitestrutless = new CustomClayStrutless("reinforcedclaywhitestrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static CustomClayStrutless reinforcedclayyellowstrutless = new CustomClayStrutless("reinforcedclayyellowstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	public static CustomClayStrutless reinforcedclayblackstrutless = new CustomClayStrutless("reinforcedclayblackstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomMetal reinforcedironblockstrutless = new CustomMetal("reinforcedironblockstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	public static CustomNether reinforcedquartzblockstrutless = new CustomNether("reinforcedquartzblockstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+  //public static CustomNether reinforcedchisledquartzblockstrutless = new CustomNether("reinforcedchisledquartzblockstrutless").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	
 	
+	
+	
+	
+	public static BlockReinforcer blockreinforcermachine = new BlockReinforcer("blockreinforcermachine").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+			
 	public static void register(IForgeRegistry<Block> registry) {
 		registry.registerAll(
 				reinforced_oak_planks,
@@ -190,7 +197,15 @@ public class BlockInit {
 				reinforcedclaysilverstrutless,
 				reinforcedclaywhitestrutless,
 				reinforcedclayyellowstrutless,
-				reinforcedclayblackstrutless
+				reinforcedclayblackstrutless,
+				blockreinforcermachine,
+				//reinforcedchisledquartzblock,
+				reinforcedquartzblock,
+				reinforcedironblock,
+				//reinforcedchisledquartzblockstrutless,
+				reinforcedquartzblockstrutless,
+				reinforcedironblockstrutless
+				
 		);
 	}
 
@@ -270,7 +285,14 @@ public class BlockInit {
 			reinforcedclaysilverstrutless.createItemBlock(),
 			reinforcedclaywhitestrutless.createItemBlock(),
 			reinforcedclayyellowstrutless.createItemBlock(),
-			reinforcedclayblackstrutless.createItemBlock()
+			reinforcedclayblackstrutless.createItemBlock(),
+			blockreinforcermachine.createItemBlock(),
+			//reinforcedchisledquartzblock.createItemBlock(),
+			reinforcedquartzblock.createItemBlock(),
+			reinforcedironblock.createItemBlock(),
+			//reinforcedchisledquartzblockstrutless.createItemBlock(),
+			reinforcedquartzblockstrutless.createItemBlock(),
+			reinforcedironblockstrutless.createItemBlock()
 		);
 	
 	}
@@ -351,7 +373,13 @@ public class BlockInit {
 		reinforcedclaywhitestrutless.registerItemModel(Item.getItemFromBlock(reinforcedclaywhitestrutless));
 		reinforcedclayyellowstrutless.registerItemModel(Item.getItemFromBlock(reinforcedclayyellowstrutless));
 	    reinforcedclayblackstrutless.registerItemModel(Item.getItemFromBlock(reinforcedclayblackstrutless));
-	    
+	    blockreinforcermachine.registerItemModel(Item.getItemFromBlock(blockreinforcermachine));
+	    //reinforcedchisledquartzblock.registerItemModel(Item.getItemFromBlock(reinforcedchisledquartzblock));
+	    reinforcedquartzblock.registerItemModel(Item.getItemFromBlock(reinforcedquartzblock));
+	    reinforcedironblock.registerItemModel(Item.getItemFromBlock(reinforcedironblock));
+	    //reinforcedchisledquartzblockstrutless.registerItemModel(Item.getItemFromBlock(reinforcedchisledquartzblockstrutless));
+		reinforcedquartzblockstrutless.registerItemModel(Item.getItemFromBlock(reinforcedquartzblockstrutless));
+		reinforcedironblockstrutless.registerItemModel(Item.getItemFromBlock(reinforcedironblockstrutless));
 		
 	}
 

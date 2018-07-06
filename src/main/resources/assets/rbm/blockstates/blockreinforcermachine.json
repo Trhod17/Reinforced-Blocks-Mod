@@ -1,0 +1,14 @@
+
+{
+    "variants": 
+    {
+        "burning=false,facing=north": { "model": "rbm:block_reinforcer" },
+        "burning=false,facing=east": { "model": "rbm:block_reinforcer", "y": 90 },
+        "burning=false,facing=south": { "model": "rbm:block_reinforcer", "y": 180 },
+        "burning=false,facing=west": { "model": "rbm:block_reinforcer", "y": 270 },
+        "burning=true,facing=north": { "model": "rbm:lit_block_reinforcer" },
+        "burning=true,facing=east": { "model": "rbm:lit_block_reinforcer", "y": 90 },
+        "burning=true,facing=south": { "model": "rbm:lit_block_reinforcer", "y": 180 },
+        "burning=true,facing=west": { "model": "rbm:lit_block_reinforcer", "y":270  }
+    }
+}
